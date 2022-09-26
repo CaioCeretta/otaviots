@@ -1,0 +1,3 @@
+- Validar se os campos estão vazios
+- Checar se o e-mail está correto
+- Checar se as duas senhas combinan
