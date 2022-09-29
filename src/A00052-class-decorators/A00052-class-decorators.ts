@@ -20,7 +20,7 @@ function decorator<T extends new (...args: any[]) => any>(target: T) {
       this.color = args[1].split('').reverse().join('');
     }
 
-    reverse(value: string): string {
+    invert(value: string): string {
       return value.split('').reverse().join('');
     }
   };
