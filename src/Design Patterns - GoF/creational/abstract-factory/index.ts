@@ -14,4 +14,14 @@
   . Você quer fornecer uma biblioteca de classes de produtos e quer revelar somente suas interfaces
     Não suas implementações
 
+  Lado bom
+
+  . Os produtos serão sempre compatíveis entre si
+  . Aplicação clara do OCP, é fácil adicoipnar novas fábricas e produtos
+  . Aplicação clara do SRP, o código que cria está separado do código que usa os objetos
+
+  Lado Ruim
+
+  . Muitas classes e maior complexidade será introduzida no código
+
   */
