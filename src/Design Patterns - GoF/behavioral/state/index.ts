@@ -9,9 +9,9 @@
  * . Evita condicionais quando um objeto contexto muda de comportamento dependendo do seu estado
  * . Desacopla o estado de um objeto contexto e seus métodos em objetos de estado separado.
  * . Facilita a adição de novos estados sem a necessidade de alterar estados anteriores
- *
+ *completed
  * Aplicabiidade
- *
+ *teoriacel
  * Use o State quando
  *
  * . O seu objeto pode se comprar de maneira diferente dependendo do seu estado atual
