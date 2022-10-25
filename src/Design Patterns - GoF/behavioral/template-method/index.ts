@@ -29,8 +29,6 @@
  *  . Em alguns casos pode violar o LSP ao alterar comportamento de métodos de subclasses
  * */
 
-import { Console } from 'console';
-
 export abstract class TemplateMethodBaseClass {
   // This is the template method
 
@@ -42,6 +40,7 @@ export abstract class TemplateMethodBaseClass {
 
   abstract stepA(): void; // As classes concretas devem definir
   abstract stepB(): void; // As classes concretas devem definir
+  // eslint-disable-next-line @typescript-eslint/no-empty-function
   hook(): void {} // As classes concretas podem usar
 }
 
